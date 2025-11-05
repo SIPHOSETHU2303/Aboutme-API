@@ -12,5 +12,13 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIPHOSETHU2303/Aboutme-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SIPHOSETHU2303/Aboutme-API/issues"
+  },
+  "homepage": "https://github.com/SIPHOSETHU2303/Aboutme-API#readme"
 }
