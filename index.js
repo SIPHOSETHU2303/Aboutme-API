@@ -15,6 +15,10 @@ let aboutMe = {
   projects: ["HealthFuelConnect App"]
 };
 
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to the About Me API!" });
+});
+
 app.get("/about", (req, res) => {
   res.json({ success: true, data: aboutMe });
 });
@@ -29,3 +33,4 @@ http://localhost:3000
 app.listen(PORT, () => {
   console.log(`✅ API running on http://localhost:${PORT}`);
 });
+
