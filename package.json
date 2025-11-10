@@ -1,45 +1,15 @@
 {
-<<<<<<< HEAD
-  "name": "readme",
-=======
   "name": "about-me-api",
->>>>>>> 42513b3e2b23550822c3c519e6e9545f053d4a5b
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SIPHOSETHU2303/About-Me-API.git"
-  },
-=======
->>>>>>> 42513b3e2b23550822c3c519e6e9545f053d4a5b
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-<<<<<<< HEAD
-  "bugs": {
-    "url": "https://github.com/SIPHOSETHU2303/About-Me-API/issues"
-  },
-  "homepage": "https://github.com/SIPHOSETHU2303/About-Me-API#readme",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   }
-=======
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SIPHOSETHU2303/Aboutme-API.git"
-  },
-  "bugs": {
-    "url": "https://github.com/SIPHOSETHU2303/Aboutme-API/issues"
-  },
-  "homepage": "https://github.com/SIPHOSETHU2303/Aboutme-API#readme"
->>>>>>> 42513b3e2b23550822c3c519e6e9545f053d4a5b
 }
