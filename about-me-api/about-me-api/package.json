@@ -1,0 +1,24 @@
+{
+  "name": "about-me-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIPHOSETHU2303/Aboutme-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SIPHOSETHU2303/Aboutme-API/issues"
+  },
+  "homepage": "https://github.com/SIPHOSETHU2303/Aboutme-API#readme"
+}

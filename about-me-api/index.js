@@ -1,62 +1,31 @@
 const express = require('express');
-
 const app = express();
-app.get('/', (req, res) => {
-  res.send('Welcome to the About Me API! Visit /about to see the profile.');
-});
-
-
-
 
 app.use(express.json());
 
+const PORT = process.env.PORT || 3000;
 
-
-
-let profile = {
-  summary: "Persistent and practical developer building a strong portfolio. With a strong focus in software development and web technologies.",
-  languages: ["JavaScript","Python", "HTML","SQL",],
-  frameworks: ["Express", "Composer", "GitHub", "Node.js"],
-  certifications: [
-    "Microsoft Azure AI Fundamentals",
-    "Microsoft Azure AI Engineer Associate",
-    "IBM Python 101 for Data Science",
-    "IBM Machine Learning with Python",
-    "Udemy Fundamentals of Software Design and Architecture"
-  ],
-  education: "National Diploma in Information Technology - Tshwane University of Technology",
-  experience: "Investhood IT - Software Developer Intern (June 2023 - November 2023)",
-  projects: ["Custom LMS", "Portfolio Website"]
+let aboutMe = {
+  summary: "I am Siphosethu Rululu, a student and software engineer in training.",
+  languages: ["JavaScript", "Python"],
+  frameworks: ["Express", "React"],
+  certifications: ["IT Certificate"],
+  education: ["Grade 12", "Explore Data Science Program"],
+  experience: ["Student at TMA Academy", "Software Engineer Trainee"],
+  projects: ["HealthFuelConnect App"]
 };
 
-
-
-
-// GET endpoint to retrieve profile
-app.get('/about', (req, res) => {
-  res.json(profile);
+app.get("/about", (req, res) => {
+  res.json({ success: true, data: aboutMe });
 });
 
-
-
-
-// POST endpoint to update profile
-app.post('/about', (req, res) => {
-  profile = { ...profile, ...req.body };
-  res.status(200).json({ message: "Profile updated", profile });
+app.post("/about", (req, res) => {
+  const updates = req.body;
+  aboutMe = { ...aboutMe, ...updates };
+  res.json({ success: true, message: "Profile updated successfully!", data: aboutMe });
 });
-
-
-
-
-// Start the server
-const PORT = process.env.PORT || 3000;
+console.log(`http://localhost:${PORT}`);
+http://localhost:3000
 app.listen(PORT, () => {
-  console.log(`API running on http://localhost:${PORT}`);
+  console.log(`✅ API running on http://localhost:${PORT}`);
 });
-
-
-
-
-
-
