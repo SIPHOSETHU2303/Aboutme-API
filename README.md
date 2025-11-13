@@ -1,7 +1,7 @@
  About Me API
 
 This is a simple **RESTful API** built with **Node.js** and **Express.js**.  
-It serves as a personal profile endpoint that stores and updates basic information about **Siphosethu Rululu** — including education, experience, certifications, and project
+It serves as a personal profile endpoint that stores and updates basic information about **Siphosethu Rululu** including education, experience, certifications, and project
 
 Project Overview
 
