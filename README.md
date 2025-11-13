@@ -1,11 +1,9 @@
-# 👩🏽‍💻 About Me API
+ About Me API
 
 This is a simple **RESTful API** built with **Node.js** and **Express.js**.  
-It serves as a personal profile endpoint that stores and updates basic information about **Siphosethu Rululu** — including education, experience, certifications, and projects.
+It serves as a personal profile endpoint that stores and updates basic information about **Siphosethu Rululu** — including education, experience, certifications, and project
 
----
-
-## 🚀 Project Overview
+Project Overview
 
 The **About Me API** demonstrates:
 - Setting up a basic Node.js + Express server
@@ -17,7 +15,7 @@ This project can be extended into a full backend portfolio or used to practice G
 
 ---
 
-## 🧩 Tech Stack
+Tech Stack
 
 | Technology | Purpose |
 |-------------|----------|
@@ -27,9 +25,9 @@ This project can be extended into a full backend portfolio or used to practice G
 
 ---
 
-## ⚙️ Installation & Setup
+ Installation & Setup
 
-### 1️⃣ Clone this repository
+Clone this repository
 ```bash
 git clone https://github.com/yourusername/Aboutme-API.git
 cd Aboutme-API
